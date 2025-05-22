@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoilio</title>
+    <link rel="stylesheet" href="../assets/css/port.css" />
+    <script src="../assets/js/port.js" defer></script>
+    <title>Portfolio</title>
 </head>
 <body>
-    
+
+<nav>
+  <ul>
+    <li><a href="#section-1">About</a></li>
+    <li><a href="#section-2">Speech-to-Braille</a></li>
+  </ul>
+</nav>
+
+<main>
+    <section id="section-1">
+        <h1>Portfoilio</h1>
+        <p>
+            This page will feature all the projects I have been apart of and worked on!
+        </p>
+        <p>
+            Whether im developing web applications, working with embedded systems, or diving into AI, 
+            This section will have it all. With the left nav bar showing the current list of projects.
+        </p>
+    </section>
+        <section id="section-2">
+        <h1>Speech-to-Braille</h1>
+        <p>
+            Speech-to-braille was my senior cap stone project and dives into:
+            <br><strong>AI, Embeddded Systems & Hardware Integration, Multithreading & Concurrency, Networking, and Natural Language Processing</strong>
+        </p>
+        <p>
+            This project is a hardware-software system that converts spoken audio into braille output. A user speaks into the system, and the audio is transcribed using a speech recognition API (AssemblyAI). The transcribed text is then converted into braille representations and physically output from a RassberyPI. The Pi sends the signals to GPIO pins that each control an elctro-Magnet Solonoid that will extend and represent a braille dot.
+        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </section>
+</main>
+
 </body>
 </html>
