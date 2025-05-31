@@ -1,3 +1,10 @@
+.portHeader {
+  margin-bottom: .1em;
+}
+.gitHeader {
+  margin-top: .0;
+  font-size: 0.8em;
+}
 html {
   scroll-behavior: smooth;
 }
